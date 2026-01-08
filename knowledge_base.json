@@ -1,0 +1,220 @@
+{
+  "college": {
+    "name": "Mysuru Royal Institute of Technology",
+    "principal": {
+      "name": "Dr.Abhinandan K S",
+      "specialization": "Mechanical Engineering",
+      "contact": "+91 9380187613"
+    },
+    "vice principal": {
+      "name": "Prof.Nakul ",
+      "specialization": "Civil Engineering"
+    }
+  },
+
+  "departments": [
+    {
+      "name": "Computer Science and Engineering",
+      "short": "CSE",
+      "location": "Block B, 2nd Floor",
+      "directions": "Enter through the main gate. Walk straight past Block A. Turn right at Block B. Take the stairs to the 2nd floor.",
+      "hod": "Dr. Lakshmi Durga",
+      "courses": ["B.E. CSE", "M.Tech CSE"],
+      "faculty": [
+        { "name": "Dr.Lanka Lakshmi Durga" },
+        { "name": "Prof.Soumya B" },
+        { "name": "Prof.Divya" },
+        { "name": "Prof.Dhanya" },
+        { "name": "Prof.Sushma" },
+        { "name": "Prof.Suhas" },
+        { "name": "Prof.Ashwini" },
+        { "name": "Prof.Prashanth" },
+        { "name": "Prof.Nirupadi" },
+        { "name": "Prof.Gowtham" },
+        { "name": "Prof.Spoorthi" },
+        { "name": "Prof.Harshitha" },
+        { "name": "Prof.Kannan Subramanya" },
+        { "name": "Prof.Arpitha" }
+      ]
+    },
+    {
+      "name": "Electronics and Communication Engineering",
+      "short": "ECE",
+      "location": "Block C, 1st Floor",
+      "directions": "From the main entrance → Walk straight to Block C → Department is on the 1st floor.",
+      "hod": "Prof. Ms. Jyothi M P",
+      "courses": ["B.E. ECE"],
+      "faculty": [
+        { "name": "Prof. Ms. Jyothi M P" },
+        { "name": "Dr. Shri Harsha J" },
+        { "name": "Mr. Mohammed Ali" },
+        { "name": "Ms. Ramyashree A N" },
+        { "name": "Ms. Roopa M" },
+        { "name": "Ms. Harshitha M C" }
+      ]
+    }
+  ],
+
+  "facilities": [
+    {
+      "name": "Library",
+      "location": "Block A, Ground Floor",
+      "hours": "9:00 AM – 6:00 PM",
+      "directions": "Enter through the main gate → Turn left to Block A → Library is on the ground floor near the reception."
+    },
+    {
+      "name": "Canteen",
+      "location": "Behind Block D",
+      "hours": "8:00 AM – 7:00 PM",
+      "directions": "From Block B → Walk straight towards Block D → Canteen is located right behind Block D."
+    },
+    {
+      "name": "Hostel",
+      "location": "North Campus",
+      "notes": "Separate BCM boys/girls hostels",
+      "directions": "Exit from the main gate → Walk 200m north → Hostel entrance is near the sports ground."
+    }
+  ],
+
+  "fees": {
+    "exam_fee_last_date": "August 25, 2025",
+    "tuition_fee_last_date": "September 10, 2025",
+    "payment_portal": "College Office / Online Portal",
+    "department_fees": {
+      "cse": {
+        "tuition": "INR 75,000 per year",
+        "exam": "INR 2,000 per semester"
+      },
+      "ece": {
+        "tuition": "INR 70,000 per year",
+        "exam": "INR 1,800 per semester"
+      }
+    }
+  },
+
+  "timetable": {
+    "cse_4th_year": "Available at department notice board",
+    "ece_3rd_year": "Available at department notice board"
+  },
+
+  "events": [
+    { "title": "Orientation Day", "date": "August 20, 2025", "venue": "Main Auditorium" },
+    { "title": "Coding Hackathon", "date": "September 5, 2025", "venue": "CSE Lab Complex" }
+  ],
+
+  "labs": [
+    {
+      "name": "Computer Lab",
+      "location": "Block B, 3rd Floor",
+      "directions": "From the CSE Department on 2nd floor → Take the stairs to 3rd floor → Lab is opposite to Room 302."
+    },
+    {
+      "name": "Electronics Lab",
+      "location": "Block C, Ground Floor",
+      "directions": "Enter Block C → Walk straight past the lobby → Lab is next to the seminar hall."
+    }
+  ],
+
+  "pdf_data": {
+    "calendar_events": [
+      { "title": "Semester Start", "date": "August 3, 2025" },
+      { "title": "Independence Day", "date": "August 15, 2025" },
+      { "title": "Technical Talk", "date": "August 20 & August 29, 2025" },
+      { "title": "Ganesha Chaturthi", "date": "August 28, 2025" },
+      { "title": "Phase-1 Project Presentation", "date": "August 27–29, 2025" },
+      { "title": "Placement Training Start", "date": "September 7, 2025" },
+      { "title": "Placement Training End", "date": "September 12, 2025" },
+      { "title": "CIE-1", "date": "September 22–24, 2025" },
+      { "title": "Industrial Visit", "date": "September 27, 2025" },
+      { "title": "Ayudha Pooja", "date": "October 1, 2025" },
+      { "title": "Gandhi Jayanti", "date": "October 2, 2025" },
+      { "title": "Valmiki Jayanti", "date": "October 7, 2025" },
+      { "title": "Deepavali", "date": "October 22–23, 2025" },
+      { "title": "IEEE Conference", "date": "October 23–24, 2025" },
+      { "title": "Kannada Rajyotsava", "date": "November 1, 2025" },
+      { "title": "Kanaka Jayanti", "date": "November 7, 2025" },
+      { "title": "Project Expo", "date": "November 14, 2025" },
+      { "title": "Phase-2 Project Presentation", "date": "November 17–21, 2025" },
+      { "title": "CIE-2", "date": "November 24–26, 2025" },
+      { "title": "Lab Internals", "date": "December 1–3, 2025" },
+      { "title": "Report Submission", "date": "December 4, 2025" },
+      { "title": "Last Working Day", "date": "December 6, 2025" },
+      { "title": "Practical Exams", "date": "January 4–10, 2026" }
+    ],
+
+    "timetable_A": [
+      { "day": "Monday", "periods": ["Deep Learning", "CNS", "Break", "Parallel Computing", "IoT", "Project Work"] },
+      { "day": "Tuesday", "periods": ["CNS", "Deep Learning", "IoT", "Parallel Computing", "IoT Lab"] },
+      { "day": "Wednesday", "periods": ["Parallel Computing", "Deep Learning", "IoT", "OEC", "IoT Lab"] },
+      { "day": "Thursday", "periods": ["Deep Learning", "IoT", "CNS", "OEC", "PC Lab"] },
+      { "day": "Friday", "periods": ["CNS", "OEC", "Deep Learning", "IoT", "PC Lab"] }
+    ],
+
+    "timetable_B": [
+      { "day": "Monday", "periods": ["IoT", "CNS", "Break", "OEC", "Deep Learning", "Project Work"] },
+      { "day": "Tuesday", "periods": ["CNS", "Deep Learning", "OEC", "Parallel Computing", "IoT Lab"] },
+      { "day": "Wednesday", "periods": ["OEC", "Deep Learning", "IoT", "OEC-2", "IoT Lab"] },
+      { "day": "Thursday", "periods": ["Deep Learning", "IoT", "CNS", "OEC", "PC Lab"] },
+      { "day": "Friday", "periods": ["CNS", "OEC", "Deep Learning", "IoT", "PC Lab"] }
+    ],
+
+    "subjects": [
+      { "code": "BCS701", "name": "Internet of Things", "faculty": "Dr. Bharathesh Patel N", "credits": 4 },
+      { "code": "BCS702", "name": "Parallel Computing", "faculty": "Dr. Divya S", "credits": 4 },
+      { "code": "BCS703", "name": "Cryptography & Network Security", "faculty": "Sariya Anjum", "credits": 4 },
+      { "code": "BCS714A", "name": "Deep Learning", "faculty": "Ashwini T S", "credits": 3 },
+      { "code": "BCV755B", "name": "Conservation of Natural Resources (OEC)", "faculty": "Prabhavathy M", "credits": 3 }
+    ]
+  },
+
+  "semester_qna": [
+    { "question": "When does the 7th semester begin?", "answer": "The 7th semester begins on August 3, 2025." },
+    { "question": "When is the semester commencement for 7th sem?", "answer": "The semester commences on August 3, 2025." },
+    { "question": "What event is on August 15 2025?", "answer": "August 15, 2025 is Independence Day." },
+    { "question": "Is there a holiday on August 15?", "answer": "Yes, August 15 is Independence Day and is a holiday." },
+    { "question": "When is the technical talk in August?", "answer": "The technical talk is scheduled on August 23, 2025." },
+    { "question": "When is Ganesha Chaturthi?", "answer": "Ganesha Chaturthi is on August 30, 2025." },
+    { "question": "When are Phase-1 project presentations?", "answer": "Phase-1 project presentations are on August 27 and August 28, 2025." },
+    { "question": "When does placement training start?", "answer": "Placement training starts on September 1, 2025." },
+    { "question": "When does placement training end?", "answer": "Placement training ends on September 5, 2025." },
+    { "question": "When is CIE-1 for 7th semester?", "answer": "CIE-1 is from September 22 to September 24, 2025." },
+    { "question": "When is the industrial visit?", "answer": "The industrial visit is on September 27, 2025." },
+    { "question": "When is Gandhi Jayanti?", "answer": "Gandhi Jayanti is on October 2, 2025." },
+    { "question": "When is Ayudha Pooja?", "answer": "Ayudha Pooja is on October 8, 2025." },
+    { "question": "When is Deepavali?", "answer": "Deepavali is on October 23 and October 24, 2025." },
+    { "question": "When is the IEEE Conference?", "answer": "The IEEE Conference is on October 24 and October 25, 2025." },
+    { "question": "When is Kannada Rajyotsava?", "answer": "Kannada Rajyotsava is on November 1, 2025." },
+    { "question": "When is the project expo?", "answer": "The Project Expo is scheduled from November 10 to November 14, 2025." },
+    { "question": "When are Phase-2 project presentations?", "answer": "Phase-2 presentations are from November 17 to November 22, 2025." },
+    { "question": "When is CIE-2?", "answer": "CIE-2 is from November 24 to November 26, 2025." },
+    { "question": "When is the last working day for 7th sem?", "answer": "The last working day is December 6, 2025." },
+    { "question": "When are lab internals?", "answer": "Lab internals are from December 1 to December 5, 2025." },
+    { "question": "When is report submission?", "answer": "Report submission is between December 1 and December 5, 2025." },
+    { "question": "When do theory exams start?", "answer": "Theory examinations begin on December 6, 2025." },
+    { "question": "When are practical/viva exams?", "answer": "Practical and viva exams are from January 4 to January 10, 2026." },
+    { "question": "What is the Monday timetable for 7th sem A?", "answer": "DL → CNS → Break → Parallel Computing → IoT → Project Work." },
+    { "question": "What is the Tuesday timetable for 7th sem A?", "answer": "CNS → DL → IoT → Parallel Computing → IoT Lab." },
+    { "question": "What is the Wednesday timetable for 7th sem A?", "answer": "Parallel Computing → DL → IoT → OEC → IoT Lab." },
+    { "question": "What is the Thursday timetable for 7th sem A?", "answer": "DL → IoT → CNS → OEC → PC Lab." },
+    { "question": "What is the Friday timetable for 7th sem A?", "answer": "CNS → OEC → DL → IoT → PC Lab." },
+    { "question": "Who teaches IoT in 7th sem A?", "answer": "IoT (BCS701) is taught by Dr. Bharathesh Patel N." },
+    { "question": "Who teaches Parallel Computing?", "answer": "Parallel Computing (BCS702) is taught by Dr. Divya S." },
+    { "question": "Who teaches Cryptography & Network Security?", "answer": "CNS (BCS703) is taught by Sariya Anjum." },
+    { "question": "Who teaches Deep Learning?", "answer": "Deep Learning (BCS714A) is taught by Ashwini T S." },
+    { "question": "Who teaches OEC?", "answer": "OEC (BCV755B) is taught by Prabhavathy M." },
+    { "question": "What is the subject code for IoT?", "answer": "BCS701" },
+    { "question": "What is the subject code for Parallel Computing?", "answer": "BCS702" },
+    { "question": "What is the subject code for CNS?", "answer": "BCS703" },
+    { "question": "What is the subject code for Deep Learning?", "answer": "BCS714A" },
+    { "question": "What is the subject code for OEC?", "answer": "BCV755B" },
+    { "question": "How many credits is IoT?", "answer": "IoT (BCS701) carries 4 credits." },
+    { "question": "How many credits is Parallel Computing?", "answer": "Parallel Computing (BCS702) carries 4 credits." },
+    { "question": "How many credits is CNS?", "answer": "Cryptography & Network Security carries 4 credits." },
+    { "question": "How many credits is Deep Learning?", "answer": "Deep Learning carries 3 credits." },
+    { "question": "How many credits is OEC?", "answer": "OEC carries 3 credits." },
+    { "question": "How many credits is project work?", "answer": "Project Work Phase II carries 6 credits." },
+    { "question": "What time do classes start?", "answer": "Classes start at 9:15 AM." },
+    { "question": "What time do classes end?", "answer": "Classes end at 4:15 PM." },
+    { "question": "Is there a lunch break?", "answer": "Yes, lunch break is from 12:30 PM to 1:30 PM." }
+  ]
+}

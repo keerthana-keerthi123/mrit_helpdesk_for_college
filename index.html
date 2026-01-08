@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ college_name }} — AI Helpdesk</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>{{ college_name }} — AI Helpdesk</h1>
+      <div class="hdr-right">
+        <a class="qr-btn" href="/qr" target="_blank" title="Open QR for phone scan">Show QR</a>
+        <span class="ip">LAN URL: {{ base_url }}</span>
+      </div>
+    </header>
+
+    <main id="chat">
+      <div class="messages" id="messages"></div>
+      <div class="controls">
+        <input
+          id="prompt"
+          type="text"
+          placeholder="Ask about fees, calendar events, timetable, labs, faculty, principal..."
+        />
+        <button id="mic" title="Hold to speak">🎤</button>
+        <button id="send" title="Send message">➤</button>
+        <label class="tts">
+          <input type="checkbox" id="speak" checked />
+          Speak replies
+        </label>
+      </div>
+    </main>
+
+    <footer>
+      <small>
+        Tip: Try
+        <strong>“Monday timetable for 7th sem A”</strong>,
+        <strong>“Show full timetable for 7th sem B”</strong>,
+        <strong>“Who teaches IoT?”</strong>,
+        <strong>“When is CIE-1?”</strong>
+      </small>
+      <small>Mysuru Royal Institute of Technology · Campus Info Assistant</small>
+    </footer>
+  </div>
+
+  <script>
+    window.BASE_URL = "{{ base_url }}";
+  </script>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
